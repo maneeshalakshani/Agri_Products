@@ -1,0 +1,78 @@
+.billCard{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 5px 1px grey;
+}
+
+form {
+    display: table;
+}
+
+form div {
+    display: table-row;
+}
+form div label {
+    display: table-cell;
+    padding-right: 5px;
+}
+form div input {
+    display: table-cell;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-width: 1.2px;
+    border-color: rgb(78, 78, 213);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+button.billbutton {
+    /* background-color: rgb(34, 34, 196); */
+    color: white;
+    padding: 8px 10px;
+    display: table-cell;
+    margin: 20px 0px 10px 0px;
+    font-size: 0.8rem;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.next {
+    background-color: rgb(34, 34, 196);
+    border: 0.1rem solid #404040;
+}
+
+.otp {
+    background-color: rgb(18, 198, 18);
+    border: 0px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.66);
+}
+
+.formTitle{
+    margin-bottom: 2rem;
+}
+
+.mpay-col-1 {
+    flex: 1;
+}
+
+.mpay-col-2 {
+    flex: 2;
+    margin-left: 2rem;
+}
+
+.mpay-row {
+    display: flex;
+    justify-content: space-evenly;
+  }

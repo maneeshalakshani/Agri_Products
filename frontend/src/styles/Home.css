@@ -1,0 +1,22 @@
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+}
+.cart-icon span{
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top:0px;
+    right: 25px;
+    padding: 4px 7px;
+    font-size: 10px;
+}
+
+.img1 {
+    margin-left: 60px;
+    height: 600px;
+    margin-top: -90px;
+    width: 550px;
+}
+
